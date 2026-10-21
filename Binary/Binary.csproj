@@ -5,13 +5,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>binary.ico</ApplicationIcon>
-    <Version>2.9.1</Version>
+    <Version>2.11.0</Version>
     <Authors>MaxHwoy</Authors>
     <PublisherName>MaxHwoy</PublisherName>
     <Description>Tool for editing Need for Speed binary files (.BIN, .BUN, .LZC).</Description>
     <Copyright>Copyright © 2021 MaxHwoy</Copyright>
-    <AssemblyVersion>2.9.1.0</AssemblyVersion>
-    <FileVersion>2.9.1.0</FileVersion>
+    <AssemblyVersion>2.11.0.0</AssemblyVersion>
+    <FileVersion>2.11.0.0</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
