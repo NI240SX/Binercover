@@ -224,7 +224,7 @@
 			this.MaximizeBox = false;
 			this.Name = "IntroUI";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "Binercover - fork of Binary by MaxHwoy";
+			this.Text = "Binercover";
 			this.IntroPanelModder.ResumeLayout(false);
 			this.IntroPanelModder.PerformLayout();
 			((System.ComponentModel.ISupportInitialize)(this.IntroPictureModder)).EndInit();

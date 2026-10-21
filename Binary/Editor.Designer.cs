@@ -777,7 +777,7 @@
             Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             MinimumSize = new System.Drawing.Size(912, 478);
             Name = "Editor";
-            Text = "Binercover - fork of Binary by MaxHwoy";
+            Text = "Binercover";
             FormClosing += Editor_FormClosing;
             Load += Editor_Load;
             EditorMenuStrip.ResumeLayout(false);

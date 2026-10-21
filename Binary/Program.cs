@@ -124,8 +124,9 @@ namespace Binary
 			MostWantedProfile.CustomHashList = usermw;
 			ProstreetProfile.MainHashList = mainps;
 			ProstreetProfile.CustomHashList = userps;
-			UndercoverProfile.MainHashList = mainuc;
-			UndercoverProfile.CustomHashList = useruc;
+            UndercoverProfile.MainHashList = mainuc;
+            UndercoverProfile.AttribHashList = Path.Combine(thispath, @"mainkeys\undercover_attrib.txt");
+            UndercoverProfile.CustomHashList = useruc;
 			Underground1Profile.MainHashList = mainug1;
 			Underground1Profile.CustomHashList = userug1;
 			Underground2Profile.MainHashList = mainug2;

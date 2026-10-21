@@ -406,7 +406,7 @@ namespace Binary
 
 		private void LabelBinary_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Binercover - fork of Binary by MaxHwoy v" + this.ProductVersion, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			MessageBox.Show("Binercover v" + this.ProductVersion, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 	}
 }

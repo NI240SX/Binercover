@@ -896,7 +896,7 @@ namespace Binary
 
 		private void EMSHelpAbout_Click(object sender, EventArgs e)
 		{
-			MessageBox.Show("Binercover - fork of Binary by MaxHwoy - version " + this.ProductVersion, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+			MessageBox.Show("Binercover - version " + this.ProductVersion, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 		
 		private void EMSHelpTutorials_Click(object sender, EventArgs e)
@@ -1289,7 +1289,7 @@ namespace Binary
 					#endif
 
 						var type = (Nikki.Reflection.Enum.SerializeType)importer.SerializationIndex;
-						using var br = new BinaryReader(File.Open(dialog.FileName, FileMode.Open));
+						using var br = new EndiannessAwareBinaryReader(File.Open(dialog.FileName, FileMode.Open));
 						manager.Import(type, br);
 						MessageBox.Show($"File {dialog.FileName} has been imported with type {type}", "Info",
 							MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -1476,7 +1476,7 @@ namespace Binary
 
 				Configurations.Default.LaunchFile = filename;
 				Configurations.Default.Save();
-				this.Text = $"Binercover - fork of Binary by MaxHwoy - {this.Profile.GameSTR}";
+				this.Text = $"Binercover - {this.Profile.GameSTR}";
 
 			#if !DEBUG
 			}
